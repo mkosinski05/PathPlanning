@@ -25,7 +25,7 @@ class buildEnvironment:
         return (int(x), int(y))
 
     def dataStorage(self, data):
-        print(len(self.pointCloud))
+
         for element in data:
             point= self.AD2pos(element[0], element[1], element[2])
             if point not in self.pointCloud:
